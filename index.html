@@ -1,1 +1,61 @@
-<h1>Survey Task</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+      <h1 id="title">
+        Which Weather Has The Worst Influence On You ?
+      </h1>
+
+      <p id="description">
+        Thanks for taking time and help us improve
+      </p>
+
+      <form id="survey-form">
+        <label for="name" id="name-label" class="question">Name</label><br>
+        <input id="name" input type="text" placeholder="First Name" required><br>
+
+        <label for="email" id="email-label" class="question">Email</label><br>
+        <input id="email" input type="email" placeholder="Email Adress" required><br>
+
+        <label for="number" id="number-label" class="question">Age</label><br>
+        <input id="number" input type="number" min="0" max="120" placeholder="Age" required><br>
+
+        <label for="gender" class="question">Your Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+
+        <label for="weather" class="question">Choose the Weather You Don't Like The Most:</label><br>
+        <select name="weather" id="dropdown">
+          <option value="sunny">Sunny</option>
+          <option value="windy">Windy</option>
+          <option value="cloudy">Cloudy</option>
+          <option value="rainy">Rainy</option>
+          <option value="thunder">Thundery</option>
+          <option value="snowy">Snowy</option>
+        </select><br>
+
+        <label for="transport" class="question" >What Kind of Transport Do You Use:</label><br>
+        <input type="checkbox" id="checkbox" name="vehicle1" value="bike" checked>
+        <label for="vehicle1"> By a bike</label><br>
+        <input type="checkbox" id="checkbox" name="vehicle2" value="car">
+        <label for="vehicle2"> By a car</label><br>
+        <input type="checkbox" id="checkbox" name="vehicle3" value="buss">
+        <label for="vehicle3"> By a buss</label><br>
+        <input type="checkbox" id="checkbox" name="vehicle4" value="subway">
+        <label for="vehicle3"> By a subway</label><br>
+
+        <label for="other" class="question" >Other:</label><br>
+        <textarea name="name" placeholder="Boat, Horse, Carriage etc... "></textarea><br>
+
+
+        <input type="submit" value="Submit" id="submit" >
+      </form>
+  </body>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

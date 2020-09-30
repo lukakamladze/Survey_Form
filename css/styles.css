@@ -1,0 +1,61 @@
+form{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+html {
+  background-color: #113461;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+#title {
+  text-align: center;
+  color: #C47200;
+}
+
+#description {
+  text-align: center;
+  font-size: 20px;
+}
+
+#submit {
+  width: 102%;
+  padding: 0.75rem;
+  background: #C48600;
+  color: inherit;
+  cursor: pointer;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  margin: 15px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#name,
+#email,
+#age {
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+  height: 20px;
+}
+
+.question{
+  font-weight: bold;
+  font-size: 20px;
+  color: #C48600;
+}
+#number{
+  width: 100%;
+}
